@@ -17,7 +17,7 @@ PlayerSettings:
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
-  m_ShowUnitySplashScreen: 1
+  m_ShowUnitySplashScreen: 0
   m_ShowUnitySplashLogo: 1
   m_SplashScreenOverlayOpacity: 1
   m_SplashScreenAnimation: 1
@@ -44,18 +44,18 @@ PlayerSettings:
   m_HolographicTrackingLossScreen: {fileID: 0}
   defaultScreenWidth: 1024
   defaultScreenHeight: 768
-  defaultScreenWidthWeb: 960
-  defaultScreenHeightWeb: 600
+  defaultScreenWidthWeb: 320
+  defaultScreenHeightWeb: 480
   m_StereoRenderingPath: 0
   m_ActiveColorSpace: 0
   unsupportedMSAAFallback: 0
   m_SpriteBatchMaxVertexCount: 65535
   m_SpriteBatchVertexThreshold: 300
   m_MTRendering: 1
-  mipStripping: 0
+  mipStripping: 1
   numberOfMipsStripped: 0
   numberOfMipsStrippedPerMipmapLimitGroup: {}
-  m_StackTraceTypes: 010000000100000001000000010000000100000001000000
+  m_StackTraceTypes: 000000000000000000000000000000000000000001000000
   iosShowActivityIndicatorOnLoading: -1
   androidShowActivityIndicatorOnLoading: -1
   iosUseCustomAppBackgroundBehavior: 0
@@ -187,7 +187,7 @@ PlayerSettings:
   androidSplitApplicationBinary: 0
   keepLoadedShadersAlive: 0
   StripUnusedMeshComponents: 1
-  strictShaderVariantMatching: 0
+  strictShaderVariantMatching: 1
   VertexChannelCompressionMask: 4054
   iPhoneSdkVersion: 988
   iOSSimulatorArchitecture: 0
@@ -555,7 +555,7 @@ PlayerSettings:
     m_Devices:
     - Oculus
     - OpenVR
-  m_DefaultShaderChunkSizeInMB: 16
+  m_DefaultShaderChunkSizeInMB: 8
   m_DefaultShaderChunkCount: 0
   openGLRequireES31: 0
   openGLRequireES31AEP: 0
@@ -565,11 +565,17 @@ PlayerSettings:
     Android: 1
     iPhone: 1
     tvOS: 1
-  m_BuildTargetGroupLightmapEncodingQuality: []
+  m_BuildTargetGroupLightmapEncodingQuality:
+  - serializedVersion: 2
+    m_BuildTarget: WebGL
+    m_EncodingQuality: 0
   m_BuildTargetGroupLightmapSettings: []
   m_BuildTargetGroupLoadStoreDebugModeSettings: []
   m_BuildTargetNormalMapEncoding: []
-  m_BuildTargetDefaultTextureCompressionFormat: []
+  m_BuildTargetDefaultTextureCompressionFormat:
+  - serializedVersion: 3
+    m_BuildTarget: WebGL
+    m_Formats: 05000000
   playModeTestRunnerEnabled: 0
   runPlayModeTestAsEditModeTest: 0
   actionOnDotNetUnhandledException: 1
@@ -808,29 +814,29 @@ PlayerSettings:
   blurSplashScreenBackground: 1
   spritePackerPolicy: 
   webGLMemorySize: 16
-  webGLExceptionSupport: 1
+  webGLExceptionSupport: 0
   webGLNameFilesAsHashes: 0
   webGLShowDiagnostics: 0
-  webGLDataCaching: 1
+  webGLDataCaching: 0
   webGLDebugSymbols: 0
   webGLEmscriptenArgs: 
   webGLModulesDirectory: 
-  webGLTemplate: APPLICATION:Default
+  webGLTemplate: APPLICATION:Minimal
   webGLAnalyzeBuildSize: 0
   webGLUseEmbeddedResources: 0
-  webGLCompressionFormat: 2
+  webGLCompressionFormat: 0
   webGLWasmArithmeticExceptions: 0
   webGLLinkerTarget: 1
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 0
   webGLInitialMemorySize: 32
-  webGLMaximumMemorySize: 2048
+  webGLMaximumMemorySize: 1024
   webGLMemoryGrowthMode: 2
   webGLMemoryLinearGrowthStep: 16
   webGLMemoryGeometricGrowthStep: 0.2
   webGLMemoryGeometricGrowthCap: 96
   webGLEnableWebGPU: 0
-  webGLPowerPreference: 2
+  webGLPowerPreference: 1
   webGLWebAssemblyTable: 0
   webGLWebAssemblyBigInt: 0
   webGLCloseOnQuit: 0
@@ -847,9 +853,11 @@ PlayerSettings:
     Android: 1
     Standalone: 1
   il2cppCompilerConfiguration: {}
-  il2cppCodeGeneration: {}
+  il2cppCodeGeneration:
+    WebGL: 1
   il2cppStacktraceInformation: {}
-  managedStrippingLevel: {}
+  managedStrippingLevel:
+    WebGL: 3
   incrementalIl2cppBuild: {}
   suppressCommonWarnings: 1
   allowUnsafeCode: 0

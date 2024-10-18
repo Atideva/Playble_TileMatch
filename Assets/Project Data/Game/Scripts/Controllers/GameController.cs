@@ -50,7 +50,6 @@ namespace Watermelon
             floatingTextController.Inititalise();
             levelController.Initialise();
             uiController.InitialisePages();
-            UIController.ShowPage<UIMainMenu>();
 
 #if UNITY_EDITOR
             CheckIfNeedToAutoRunLevel();
@@ -61,21 +60,8 @@ namespace Watermelon
 
         public static void LoadLevel(int index, SimpleCallback onLevelLoaded = null)
         {
-            UIController.HidePage<UIMainMenu>(() =>
-            {
-                UIController.ShowPage<UIGame>();
-                gameController.levelController.LoadLevel(index, onLevelLoaded);
-
-                isGameActive = true;
-            });
-        }
-
-        public static void LoadCustomLevel(LevelData levelData, PreloadedLevelData preloadedLevelData, BackgroundData backgroundData, bool animateDock, SimpleCallback onLevelLoaded = null)
-        {
             UIController.ShowPage<UIGame>();
-
-            gameController.levelController.LoadCustomLevel(levelData, preloadedLevelData, backgroundData, animateDock, onLevelLoaded);
-
+            gameController.levelController.LoadLevel(index, onLevelLoaded);
             isGameActive = true;
         }
 
@@ -86,7 +72,7 @@ namespace Watermelon
 
             SaveController.Save();
 
-            UIController.HidePage<UIGame>(() => { UIController.ShowPage<UIComplete>(); });
+            UIController.HidePage<UIGame>(UIController.ShowPage<UIComplete>);
 
             isGameActive = false;
         }
@@ -110,8 +96,6 @@ namespace Watermelon
         {
             isGameActive = false;
 
-            UIController.ShowPage<UIMainMenu>();
-
             LoadLevel(LevelController.DisplayedLevelIndex);
         }
 
@@ -120,8 +104,6 @@ namespace Watermelon
             isGameActive = false;
 
             LevelController.UnloadLevel();
-
-            UIController.ShowPage<UIMainMenu>();
         }
 
         public static void Revive()
