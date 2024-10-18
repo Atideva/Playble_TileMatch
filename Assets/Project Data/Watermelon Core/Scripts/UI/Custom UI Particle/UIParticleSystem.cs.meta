@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: f46fb277f876431408f1460309227be9
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 282748
+  packageName: Tile Match | Template + Editor
+  packageVersion: 1.0.5
+  assetPath: Assets/Project Data/Watermelon Core/Scripts/UI/Custom UI Particle/UIParticleSystem.cs
+  uploadId: 697732

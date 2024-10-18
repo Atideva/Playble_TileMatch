@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 1b56985fc8f637940854b01c9acb49e2
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 282748
+  packageName: Tile Match | Template + Editor
+  packageVersion: 1.0.5
+  assetPath: Assets/Project Data/Watermelon Core/Extended Editor/Attributes/FieldDrawerAttribute.cs
+  uploadId: 697732

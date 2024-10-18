@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: f3df06934cabd0c43a59eeb051802cc4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 282748
+  packageName: Tile Match | Template + Editor
+  packageVersion: 1.0.5
+  assetPath: Assets/Project Data/Watermelon Core/Extended Editor/Modules/Ragdoll
+    Helper/RagdollHelper.cs
+  uploadId: 697732

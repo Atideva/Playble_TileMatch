@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 3dfb473846b26e949b0eb8247d5afb7b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 282748
+  packageName: Tile Match | Template + Editor
+  packageVersion: 1.0.5
+  assetPath: Assets/Project Data/Watermelon Core/Extended Editor/Editor/Drawers/PropertyMetas/PropertyMeta.cs
+  uploadId: 697732

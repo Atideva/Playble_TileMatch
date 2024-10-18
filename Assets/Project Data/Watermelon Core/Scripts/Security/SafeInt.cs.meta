@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 30c6097fdaaca854b9f5569b7963737d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 282748
+  packageName: Tile Match | Template + Editor
+  packageVersion: 1.0.5
+  assetPath: Assets/Project Data/Watermelon Core/Scripts/Security/SafeInt.cs
+  uploadId: 697732

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 5681fea44bd53b94f880864141cd6750
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 282748
+  packageName: Tile Match | Template + Editor
+  packageVersion: 1.0.5
+  assetPath: Assets/Project Data/Watermelon Core/Extended Editor/Attributes/DrawerAttributes/ButtonAttribute.cs
+  uploadId: 697732

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 74d643b634085684e8429f7b41c490fe
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 282748
+  packageName: Tile Match | Template + Editor
+  packageVersion: 1.0.5
+  assetPath: Assets/Project Data/Watermelon Core/Modules/Loading System/Prefabs/Loading
+    Screen.prefab
+  uploadId: 697732

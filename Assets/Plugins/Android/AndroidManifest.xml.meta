@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: bc2e35e21a4567545855b275ba772966
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 282748
+  packageName: Tile Match | Template + Editor
+  packageVersion: 1.0.5
+  assetPath: Assets/Plugins/Android/AndroidManifest.xml
+  uploadId: 697732

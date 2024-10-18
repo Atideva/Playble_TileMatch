@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 74691e588558f2148a523a87125a7321
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 282748
+  packageName: Tile Match | Template + Editor
+  packageVersion: 1.0.5
+  assetPath: Assets/Project Data/Watermelon Core/Extended Editor/Modules/Manifest
+    Generator/AndroidManifestTemplate.txt
+  uploadId: 697732

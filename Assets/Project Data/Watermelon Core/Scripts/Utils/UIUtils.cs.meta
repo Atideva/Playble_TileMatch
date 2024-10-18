@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: c1f4f3974aec63a4c87cc7c58368b034
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 282748
+  packageName: Tile Match | Template + Editor
+  packageVersion: 1.0.5
+  assetPath: Assets/Project Data/Watermelon Core/Scripts/Utils/UIUtils.cs
+  uploadId: 697732

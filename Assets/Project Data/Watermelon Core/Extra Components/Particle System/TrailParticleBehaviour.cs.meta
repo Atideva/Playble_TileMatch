@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: cc238e427a7d5d346a1ebcc2155fdb45
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 282748
+  packageName: Tile Match | Template + Editor
+  packageVersion: 1.0.5
+  assetPath: Assets/Project Data/Watermelon Core/Extra Components/Particle System/TrailParticleBehaviour.cs
+  uploadId: 697732

@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9579f3ad1df0db349b16fdaf47f5d57a, type: 3}
+  m_Name: Level Database
+  m_EditorClassIdentifier: 
+  levels:
+  - {fileID: 11400000, guid: a27c256bd5aac2e4688befbe7ce1528b, type: 2}
+  - {fileID: 11400000, guid: eadef802e94aaf645ae5b0b45543154e, type: 2}
+  tiles:
+  - prefab: {fileID: 2542306047163851403, guid: 17637f81f354b434d9448fb5623ff8ad,
+      type: 3}
+    availableFromLevel: 0
+    collectionID: 0
+  - prefab: {fileID: 2542306047163851403, guid: 7dcb11f88c1c6614c9e81d9749fa70a3,
+      type: 3}
+    availableFromLevel: 0
+    collectionID: 0
+  - prefab: {fileID: 2542306047163851403, guid: 179923bebf3430e418179375f57b57e8,
+      type: 3}
+    availableFromLevel: 0
+    collectionID: 0
+  - prefab: {fileID: 2542306047163851403, guid: 2ffaf912111b0004bb307a22bc886646,
+      type: 3}
+    availableFromLevel: 0
+    collectionID: 0
+  - prefab: {fileID: 2542306047163851403, guid: ec3e0bb0b6e21b34baa2e712b5fef2fd,
+      type: 3}
+    availableFromLevel: 0
+    collectionID: 0
+  - prefab: {fileID: 2542306047163851403, guid: a5da90b5ef01cb849a2c381316c4bc23,
+      type: 3}
+    availableFromLevel: 0
+    collectionID: 1
+  - prefab: {fileID: 2542306047163851403, guid: 8d9293a0ee1f7a644bdba809d6f66911,
+      type: 3}
+    availableFromLevel: 0
+    collectionID: 1
+  - prefab: {fileID: 2542306047163851403, guid: 94db65a3e6f41ea44b493f582a92cbe2,
+      type: 3}
+    availableFromLevel: 0
+    collectionID: 1
+  - prefab: {fileID: 2542306047163851403, guid: 75ec6a5c7db6bdf4791b8693e6e5ad6d,
+      type: 3}
+    availableFromLevel: 0
+    collectionID: 1
+  - prefab: {fileID: 2542306047163851403, guid: d92d5a3e366db2546a253c9baf0649d9,
+      type: 3}
+    availableFromLevel: 0
+    collectionID: 1
+  - prefab: {fileID: 2542306047163851403, guid: 08e1918afc777884aa964b2ef1c56923,
+      type: 3}
+    availableFromLevel: 0
+    collectionID: 2
+  - prefab: {fileID: 2542306047163851403, guid: 0d2143b8fa3f2964fb2e5fe53f288df1,
+      type: 3}
+    availableFromLevel: 0
+    collectionID: 2
+  - prefab: {fileID: 2542306047163851403, guid: 966d8f11ad3d9c34aa6655c5d9df95c3,
+      type: 3}
+    availableFromLevel: 0
+    collectionID: 2
+  - prefab: {fileID: 2542306047163851403, guid: 9ae8e087f61266b40a4ac213419de735,
+      type: 3}
+    availableFromLevel: 0
+    collectionID: 2
+  - prefab: {fileID: 2542306047163851403, guid: 53dde95f4e91ecc47a31396d7c90b1f7,
+      type: 3}
+    availableFromLevel: 0
+    collectionID: 2
+  tileEffects:
+  - {fileID: 3729535350700347465, guid: 0c5538f95b0d01e45aad9171dca64717, type: 3}
+  - {fileID: 632551435000746048, guid: bee5cdaf1d16d3d44a99413e5781ab65, type: 3}
+  - {fileID: 6289686921209105323, guid: 27b92b391fe531e4eadcc21dd41fe9e5, type: 3}
+  - {fileID: 8393393293438007501, guid: 5c16d57e9a7ada143aaec6b2de55972b, type: 3}
+  backgroundData:
+  - backgroundPrefab: {fileID: 6236222446239046324, guid: 269583515b66225488c4ef570119a472,
+      type: 3}
+    availableFromLevel: 0
+    collectionId: 0
+  - backgroundPrefab: {fileID: 6236222446239046324, guid: 08298627415c7904f8d0f8d84998f60d,
+      type: 3}
+    availableFromLevel: 10
+    collectionId: 0
+  - backgroundPrefab: {fileID: 6236222446239046324, guid: ee94d214c118d0d499b54243249a0f89,
+      type: 3}
+    availableFromLevel: 20
+    collectionId: 0
+  - backgroundPrefab: {fileID: 6236222446239046324, guid: 18113c66fe43c4b44b0dada6de6d396c,
+      type: 3}
+    availableFromLevel: 30
+    collectionId: 0
+  selectedColor: {r: 0.20392157, g: 1, b: 0, a: 1}
+  unselectedColor: {r: 1, g: 1, b: 1, a: 0}
+  tintColor: {r: 0, g: 0, b: 0, a: 0.101960786}
+  backgroundColor: {r: 0.5764706, g: 0.5764706, b: 0.5764706, a: 0.8235294}
+  gridColor: {r: 0, g: 0, b: 0, a: 0.5372549}

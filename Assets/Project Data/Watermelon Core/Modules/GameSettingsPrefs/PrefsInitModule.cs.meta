@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: f4b590aedda841e458e71b9f714bbe47
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 282748
+  packageName: Tile Match | Template + Editor
+  packageVersion: 1.0.5
+  assetPath: Assets/Project Data/Watermelon Core/Modules/GameSettingsPrefs/PrefsInitModule.cs
+  uploadId: 697732

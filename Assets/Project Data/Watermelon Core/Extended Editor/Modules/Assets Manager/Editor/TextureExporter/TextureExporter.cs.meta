@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: e0f070de6332491469c6dbf61ee23db3
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 282748
+  packageName: Tile Match | Template + Editor
+  packageVersion: 1.0.5
+  assetPath: Assets/Project Data/Watermelon Core/Extended Editor/Modules/Assets Manager/Editor/TextureExporter/TextureExporter.cs
+  uploadId: 697732
